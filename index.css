@@ -7,6 +7,14 @@ h2{
 p{
     font-weight: 300;
 }
+header{
+  width:  91%;;
+ height:  auto;
+  margin:  50px;
+  border:  1px solid black;
+
+  display: flex;
+}
 .container{
     
     margin: 0 auto;
