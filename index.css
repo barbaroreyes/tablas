@@ -1,18 +1,20 @@
 body{
     font-family: 'Lato', sans-serif;
+    background: linear-gradient(to left, rgb(86, 113, 235), #131414);
 }
 h2{
     font-weight: 400;
 }
 p{
-    font-weight: 300;
+   
+  font-weight: 300;
 }
 header{
   width:  91%;;
  height:  auto;
-  margin:  50px;
-  border:  1px solid black;
+ 
   display: flex;
+  justify-content: space-around;
 }
 .dad{
   text-decoration: none;
@@ -29,6 +31,14 @@ header{
 }
 .text-center{
     text-align: center;
+}
+li{
+  list-style: none;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
 }
 .columna{
  background: rgb(238, 238,238);
@@ -49,7 +59,7 @@ header{
 }
 .btn{
     display: block;
-    background: salmon;
+    background: linear-gradient(to left, rgb(108, 132, 238), #252525);
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
@@ -57,7 +67,11 @@ header{
     margin-bottom: 10px;
 }
 .btn:hover{
-    background: rgb(247, 100, 84);
+    background: rgb(243, 235, 235);
+    color: #131414;
+}
+img{
+  width:100%;
 }
 @media (max-width:1070px){
     .columna{
@@ -86,3 +100,18 @@ header{
     color:red;
   }
 }
+
+@media(min-width:468px){
+  ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  header{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   text-align: center;
+  }
+  
+  
+}  
